@@ -1,1 +1,1 @@
-# ListaInvitados-MVC
+# scoreboard-MVC
