@@ -20,7 +20,7 @@ class Model{
 const ListGuests=({model})=>{
   return (<ul>
     {model.guests.map((g)=>{
-      return <li><label>Confirmed<input type='checkbox' /></label><button>Remove</button></li>;
+      return <li><label>{g.name}<input type='checkbox' /></label><button>Remove</button></li>;
       })
     }
     </ul>);
